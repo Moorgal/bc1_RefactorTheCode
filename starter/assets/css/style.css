@@ -1,3 +1,5 @@
+/*general css*/
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,6 +12,8 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
 }
+
+/*navbar css*/
 
 header {
   padding: 20px;
@@ -44,6 +48,8 @@ a {
   font-size: 20px;
 }
 
+/*articles css*/
+
 #hero {
   height: 800px;
   width: 100%;
@@ -69,6 +75,24 @@ a {
   margin-left: 20px;
 }
 
+article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+}
+
+article img {
+  max-height: 200px;
+}
+
+article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*aside css*/
+
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -93,21 +117,7 @@ a {
   max-width: 150px;
 }
 
-article {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  background-color: #0072bb;
-}
-
-article img {
-  max-height: 200px;
-}
-
-article h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
+/*footer css*/
 
 footer {
   padding: 30px;
